@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MyViewController" customModule="MVI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3z3-fx-5mz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="p4c-0N-K7s"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aN2-o3-110">
+                                <rect key="frame" x="0.0" y="170" width="414" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="JZN-gR-leV"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="qux-1O-Qah">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3JK-MH-8tU">
+                                <rect key="frame" x="0.0" y="591" width="414" height="271"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="143" translatesAutoresizingMaskIntoConstraints="NO" id="2U9-IQ-LUi">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="143"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="SXQ-b4-Pn7">
+                                        <rect key="frame" x="0.0" y="143" width="414" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SXQ-b4-Pn7" firstAttribute="top" secondItem="3JK-MH-8tU" secondAttribute="top" constant="143" id="j0B-3k-RC2"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mE-Pg-ceG">
+                                <rect key="frame" x="80" y="385" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="tasks"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhm-qa-dAf">
+                                <rect key="frame" x="224" y="382" width="84" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Appoinment"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qux-1O-Qah" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2aX-4V-EX5"/>
+                            <constraint firstItem="3JK-MH-8tU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D58-qR-xcv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3z3-fx-5mz" secondAttribute="trailing" id="Ehf-1g-bbZ"/>
+                            <constraint firstItem="3z3-fx-5mz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UoX-S2-5dN"/>
+                            <constraint firstAttribute="trailing" secondItem="aN2-o3-110" secondAttribute="trailing" id="Vnt-jf-MDD"/>
+                            <constraint firstItem="qux-1O-Qah" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WgD-Hh-gWK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3JK-MH-8tU" secondAttribute="bottom" id="gLN-0W-mz5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3JK-MH-8tU" secondAttribute="trailing" id="hFG-80-AOR"/>
+                            <constraint firstItem="3z3-fx-5mz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wi3-UH-9Ri"/>
+                            <constraint firstItem="aN2-o3-110" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="xmi-gO-4Yc"/>
+                            <constraint firstItem="aN2-o3-110" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="y4z-XR-dV9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appTextView" destination="aN2-o3-110" id="BkW-yA-Fab"/>
+                        <outlet property="appoimentButton" destination="Hhm-qa-dAf" id="qxn-Af-cHW"/>
+                        <outlet property="emptyView" destination="SXQ-b4-Pn7" id="mv9-35-d34"/>
+                        <outlet property="errorView" destination="2U9-IQ-LUi" id="biZ-50-hXV"/>
+                        <outlet property="loadingIndicator" destination="qux-1O-Qah" id="OKP-mD-E5L"/>
+                        <outlet property="taskTextView" destination="3z3-fx-5mz" id="d3c-DE-Jd1"/>
+                        <outlet property="tasksButton" destination="5mE-Pg-ceG" id="hhf-iN-FXG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129" y="81"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
