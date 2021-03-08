@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  MVI
-//
-//  Created by Mobiapps on 20/01/2021.
-//
-
 import UIKit
 import CoreData
 import Apollo

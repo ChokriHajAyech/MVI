@@ -1,10 +1,3 @@
-//
-//  MVIUITests.swift
-//  MVIUITests
-//
-//  Created by Mobiapps on 20/01/2021.
-//
-
 import XCTest
 
 class MVIUITests: XCTestCase {

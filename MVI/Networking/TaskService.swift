@@ -1,10 +1,3 @@
-//
-//  TaskService.swift
-//  MVI
-//
-//  Created by Mobiapps on 20/01/2021.
-//
-
 import Foundation
 
 typealias CompletionHandler = ((result:Any?, error: Error?)) -> Void

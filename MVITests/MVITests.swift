@@ -1,10 +1,3 @@
-//
-//  MVITests.swift
-//  MVITests
-//
-//  Created by Mobiapps on 20/01/2021.
-//
-
 import XCTest
 @testable import MVI
 import RxSwift

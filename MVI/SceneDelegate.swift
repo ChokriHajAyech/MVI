@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  MVI
-//
-//  Created by Mobiapps on 20/01/2021.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

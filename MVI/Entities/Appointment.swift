@@ -1,10 +1,3 @@
-//
-//  Appointment.swift
-//  MVI
-//
-//  Created by Mobiapps on 21/01/2021.
-//
-
 import Foundation
 
 struct Appointment {
